@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+padding: 30px 0;
+background-color: #ffb546;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter {
+width: 600px;
+margin: 0 auto;
+border-collapse: collapse;
+}
+
+.banner-container {
+padding: 0 0 14px 0;
+}
+
+.banner {
+display: block;
+width: 960px;
+max-width: 80%;
+height: auto;
+margin: 0 auto;
+border: 0;
+}
+
+/* CARD PRINCIPAL */
+
+.card {
+width: 600px;
+background-color: #f7f7f7;
+border-radius: 16px;
+overflow: hidden;
+border-collapse: collapse;
+}
+
+.content {
+padding: 0;
+}
+
+/* SAUDAÇÃO */
+
+.saudacao {
+padding: 28px 32px 8px 32px;
+font-size: 15px;
+color: #000000;
+line-height: 1.6;
+}
+
+.gif-saudacao {
+display: inline-block;
+width: 5%;
+height: auto;
+margin-left: 20px;
+vertical-align: middle;
+}
+
+/* SEÇÕES */
+
+.secao {
+width: calc(100% - 64px);
+margin: 24px 32px 0 32px;
+border-collapse: collapse;
+}
+
+.imagem-secao {
+display: block;
+width: 100%;
+height: auto;
+}
+
+/* COMO FAZER */
+
+.como-fazer {
+background-color: #e9f7f2;
+}
+
+.secao-conteudo {
+padding: 20px 24px 24px 24px;
+}
+
+.etiqueta {
+display: inline-block;
+color: #ffffff;
+font-size: 11px;
+font-weight: bold;
+padding: 4px 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+.etiqueta-verde {
+background-color: #46dcaa;
+}
+
+.titulo-secao {
+font-size: 18px;
+font-weight: bold;
+color: #000000;
+margin: 8px 0;
+}
+
+.texto-secao {
+font-size: 14px;
+color: #333333;
+line-height: 1.7;
+}
+
+/* CURIOSIDADE */
+
+.curiosidade {
+background-color: #fff6e6;
+border-radius: 5px;
+}
+
+.curiosidade-conteudo {
+padding: 20px 24px;
+}
+
+.icone-curiosidade {
+display: block;
+width: 80px;
+height: 80px;
+}
+
+.curiosidade-texto {
+padding-left: 16px;
+}
+
+.etiqueta-amarela {
+background-color: #ffbe55;
+}
+
+/* DESTAQUE */
+
+.destaque {
+background-color: #eaf2ff;
+border-radius: 5px;
+}
+
+.destaque-conteudo {
+padding: 20px 24px;
+}
+
+.etiqueta-azul {
+background-color: #91beff;
+}
+
+/* FECHAMENTO */
+
+.fechamento {
+padding: 28px 32px 8px 32px;
+font-size: 14px;
+color: #000000;
+line-height: 1.6;
+}
+
+.gif-fechamento {
+display: inline-block;
+width: 5%;
+height: auto;
+margin-left: 20px;
+vertical-align: middle;
+}
+
+/* ASSINATURA */
+
+.assinatura {
+width: 450px;
+border-collapse: collapse;
+}
+
+.assinatura-esquerda {
+width: 200px;
+vertical-align: top;
+}
+
+.assinatura-direita {
+width: 250px;
+vertical-align: top;
+padding-left: 20px;
+}
+
+.logo-container {
+width: 150px;
+}
+
+.logo {
+display: block;
+height: 30px;
+margin-bottom: 15px;
+}
+
+.redes-sociais {
+margin-top: 5px;
+}
+
+.redes-sociais a {
+text-decoration: none;
+margin-right: 5px;
+}
+
+.redes-sociais img {
+vertical-align: middle;
+}
+
+.site {
+margin-top: 5px;
+font-family: 'Trebuchet MS',
+'Lucida Sans Unicode',
+'Lucida Grande',
+'Lucida Sans',
+Arial,
+sans-serif;
+font-size: 10px;
+}
+
+.site a {
+color: #231f20;
+text-decoration: underline;
+}
+
+/* INFORMAÇÕES */
+
+.nome {
+padding-top: 10px;
+font-family: 'Trebuchet MS',
+'Lucida Sans Unicode',
+'Lucida Grande',
+'Lucida Sans',
+Arial,
+sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #e5023a;
+}
+
+.cargo {
+padding-top: 3px;
+font-family: 'Trebuchet MS',
+'Lucida Sans Unicode',
+'Lucida Grande',
+'Lucida Sans',
+Arial,
+sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #231f20;
+}
+
+.telefone {
+margin-top: 10px;
+font-family: 'Trebuchet MS',
+'Lucida Sans Unicode',
+'Lucida Grande',
+'Lucida Sans',
+Arial,
+sans-serif;
+font-size: 10px;
+color: #231f20;
+}
+
+.email {
+margin-top: 5px;
+font-family: 'Trebuchet MS',
+'Lucida Sans Unicode',
+'Lucida Grande',
+'Lucida Sans',
+Arial,
+sans-serif;
+font-size: 10px;
+}
+
+.email a {
+color: #1672bf;
+text-decoration: underline;
+}
+
+/* CELULAR */
+
+@media screen and (max-width: 650px) {
+
+```
+.newsletter,
+.card {
+    width: 100% !important;
+}
+
+.banner {
+    max-width: 100%;
+    width: 100%;
+}
+
+.secao {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.assinatura {
+    width: 100%;
+}
+```
+
+}
